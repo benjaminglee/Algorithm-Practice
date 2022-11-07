@@ -10,3 +10,4 @@ function twoNumberSum(array, targetSum) {
   //return empty if no solution
   return [];
 }
+//test
