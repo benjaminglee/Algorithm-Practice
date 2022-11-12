@@ -21,5 +21,5 @@ function isValidSubsequence(array, sequence) {
 //       if(sequence[count] === current) count++
 //       if(sequence.length === count) return true
 //     }
-//     return count===sequence.length
+//     return false
 //   }
