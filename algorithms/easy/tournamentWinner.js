@@ -5,6 +5,7 @@
 function tournamentWinner(competitions, results) {
   //create cache to store results
   const cache = {};
+  
   for (let i = 0; i < competitions.length; i++) {
     //grab current
     let current = competitions[i];
