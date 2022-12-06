@@ -1,3 +1,6 @@
+//input: AABBCCC
+//output: 2A2B3C
+
 function runLengthEncoding(string) {
   //set current character
   let currentChar = string[0];
