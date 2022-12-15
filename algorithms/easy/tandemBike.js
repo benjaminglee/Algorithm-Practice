@@ -1,3 +1,6 @@
+//calculate greatest/minimum possible speed from two equally sized arrays based on input bool.
+//one red to one blue, the greatest speed always is added to total
+
 function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
   redShirtSpeeds.sort((a, b) => a - b);
   blueShirtSpeeds.sort((a, b) => a - b);
