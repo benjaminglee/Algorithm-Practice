@@ -18,4 +18,20 @@ const largestComponent = (graph) => {
     return size;
   }
 
+//   const explore = (graph, node, visited) => {    // iterative solution
+//     if(visited.has(node)) return 0;
+//     let size = 0;
+//     const stack = [node];
+//     while(stack.length > 0) {
+//       const current = stack.pop();
+//       for (const neighbor of graph[current]) {
+//         if(visited.has(neighbor)) continue;
+//         visited.add(neighbor);
+//         size++;
+//         stack.push(neighbor);
+//       }
+//     }
+//     return size;
+//   }
+
   // recursively return the largest size of a component in a given graph
