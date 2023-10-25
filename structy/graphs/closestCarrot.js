@@ -24,3 +24,5 @@ const closestCarrot = (grid, startRow, startCol) => {
     }
     return -1;
   };
+
+  // find the closest carrot in a given grid graph. ignore X which acts as a wall
